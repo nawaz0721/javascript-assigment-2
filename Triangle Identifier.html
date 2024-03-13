@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Type Identifier</title>
+</head>
+<script>
+    var num_1 = +prompt("Enter the first angle of a triangle");
+    var num_2 = +prompt("Enter the second angle of a triangle");
+    var num_3 = +prompt("Enter the third angle of a triangle");
+
+if(num_1 === num_2 && num_1 === num_3 && num_2 === num_3){
+    alert("Triangle is Equilateral");
+}
+else if(num_1 === num_2 || num_1 === num_3 || num_2 === num_3) {
+    alert("Triangle is Isosceles");
+}
+else {
+    alert("Triangle is Scalene");
+}
+</script>
+<body>
+    
+</body>
+</html>

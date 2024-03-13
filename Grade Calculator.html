@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+</head>
+<script>
+    var English = +prompt("Enter your English Marks");
+    var Urdu = +prompt("Enter your Urdu Marks");
+    var Maths = +prompt("Enter your Maths Marks");
+
+var avg = ((English + Urdu + Maths)/3)
+
+if(avg >= 80){
+    alert("Your Grade is A+");
+}
+else if(avg >= 70){
+    alert("Your Grade is A");
+}
+else if(avg >= 60){
+    alert("Your Grade is B");
+}
+else if(avg >= 50){
+    alert("Your Grade is C");
+}
+else{
+    alert("Your are Fail");
+}
+
+</script>
+<body>
+    
+</body>
+</html>
